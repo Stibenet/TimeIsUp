@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
 [assembly: AssemblyTitle("TimeIsUp")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Планировщик повседневных задач")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("StibeNet")]
 [assembly: AssemblyProduct("TimeIsUp")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyCopyright("Copyright ©  2017 by StibeNet")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

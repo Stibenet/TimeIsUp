@@ -1,0 +1,10 @@
+C:\Users\Марсель\Documents\TimeIsUp\TimeIsUp\bin\Debug\TimeIsUp.exe.config
+C:\Users\Марсель\Documents\TimeIsUp\TimeIsUp\bin\Debug\TimeIsUp.exe
+C:\Users\Марсель\Documents\TimeIsUp\TimeIsUp\bin\Debug\TimeIsUp.pdb
+C:\Users\Марсель\Documents\TimeIsUp\TimeIsUp\obj\Debug\TimeIsUp.csprojResolveAssemblyReference.cache
+C:\Users\Марсель\Documents\TimeIsUp\TimeIsUp\obj\Debug\TimeIsUp.Form1.resources
+C:\Users\Марсель\Documents\TimeIsUp\TimeIsUp\obj\Debug\TimeIsUp.Properties.Resources.resources
+C:\Users\Марсель\Documents\TimeIsUp\TimeIsUp\obj\Debug\TimeIsUp.csproj.GenerateResource.Cache
+C:\Users\Марсель\Documents\TimeIsUp\TimeIsUp\obj\Debug\TimeIsUp.exe
+C:\Users\Марсель\Documents\TimeIsUp\TimeIsUp\obj\Debug\TimeIsUp.pdb
+C:\Users\Марсель\Documents\TimeIsUp\TimeIsUp\obj\Debug\TimeIsUp.frmAbout.resources
