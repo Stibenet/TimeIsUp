@@ -8,3 +8,5 @@ C:\Users\Марсель\Documents\TimeIsUp\TimeIsUp\obj\Debug\TimeIsUp.csproj.Ge
 C:\Users\Марсель\Documents\TimeIsUp\TimeIsUp\obj\Debug\TimeIsUp.exe
 C:\Users\Марсель\Documents\TimeIsUp\TimeIsUp\obj\Debug\TimeIsUp.pdb
 C:\Users\Марсель\Documents\TimeIsUp\TimeIsUp\obj\Debug\TimeIsUp.frmAbout.resources
+c:\Users\Марсель\Documents\TimeIsUp\TimeIsUp\obj\Debug\TimeIsUp.frmPassword.resources
+c:\Users\Марсель\Documents\TimeIsUp\TimeIsUp\obj\Debug\TimeIsUp.ResultSearchPassword.resources
