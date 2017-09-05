@@ -40,7 +40,8 @@ namespace TimeIsUp
             get { return ConfigurationSettings.AppSettings["ConnectionString"]; }
         }
 
-        private void btnNotes_Click(object sender, EventArgs e)
+        #region Кнопка "Соединить"
+        private void btnConnect_Click(object sender, EventArgs e)
         {
             String connString;
             connString = ConfigurationSettings.AppSettings["ConnectionString"];
@@ -48,13 +49,19 @@ namespace TimeIsUp
             SqlConnection cnn = MiscFunction.OpenConnection(connString);
 
             //Вывод в таблицу информации
-            using (SqlDataAdapter a = new SqlDataAdapter("SELECT id, name, text, date, complete FROM Notes", cnn))
+            using (SqlDataAdapter a = new SqlDataAdapter("SELECT id, name, text, date FROM Notes", cnn))
             {
                 SqlCommandBuilder cb = new SqlCommandBuilder(a);
                 DataSet ds = new DataSet();
                 a.Fill(ds, "Notes");
                 dataGridView1.DataSource = ds.Tables[0];
+                //datagridviewrow dr = datagridview1.selectedrows[0];
+                //dr.cells[1].value = ds.tables[1];
+                //dr.cells[2].value = ds.tables[2];
+                //dr.cells[3].value = ds.tables[3];
+                //dr.cells[3].value = ds.tables[4];
             }
         }
+#endregion
     }
 }

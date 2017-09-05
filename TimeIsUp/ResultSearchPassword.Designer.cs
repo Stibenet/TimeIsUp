@@ -28,36 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lbName = new System.Windows.Forms.Label();
+            this.lbLogin = new System.Windows.Forms.Label();
+            this.lbPassword = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // lbName
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(119, 31);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.lbName.AutoSize = true;
+            this.lbName.Location = new System.Drawing.Point(119, 31);
+            this.lbName.Name = "lbName";
+            this.lbName.Size = new System.Drawing.Size(35, 13);
+            this.lbName.TabIndex = 0;
+            this.lbName.Text = "label1";
+            this.lbName.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label2
+            // lbLogin
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(119, 72);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
+            this.lbLogin.AutoSize = true;
+            this.lbLogin.Location = new System.Drawing.Point(119, 72);
+            this.lbLogin.Name = "lbLogin";
+            this.lbLogin.Size = new System.Drawing.Size(35, 13);
+            this.lbLogin.TabIndex = 1;
+            this.lbLogin.Text = "label2";
+            // 
+            // lbPassword
+            // 
+            this.lbPassword.AutoSize = true;
+            this.lbPassword.Location = new System.Drawing.Point(119, 109);
+            this.lbPassword.Name = "lbPassword";
+            this.lbPassword.Size = new System.Drawing.Size(35, 13);
+            this.lbPassword.TabIndex = 2;
+            this.lbPassword.Text = "label3";
             // 
             // ResultSearchPassword
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(303, 157);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbPassword);
+            this.Controls.Add(this.lbLogin);
+            this.Controls.Add(this.lbName);
             this.Name = "ResultSearchPassword";
             this.Text = "ResultSearchPassword";
             this.Load += new System.EventHandler(this.ResultSearchPassword_Load);
@@ -68,7 +79,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lbName;
+        private System.Windows.Forms.Label lbLogin;
+        private System.Windows.Forms.Label lbPassword;
     }
 }
